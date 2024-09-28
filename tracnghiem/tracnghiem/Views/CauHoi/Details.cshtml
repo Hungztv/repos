@@ -1,0 +1,91 @@
+﻿@model tracnghiem.Models.CauHois
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CauHois</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cauhoi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cauhoi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dap_an_a)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dap_an_a)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dap_an_b)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dap_an_b)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dap_an_c)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dap_an_c)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dap_an_d)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dap_an_d)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ghi_chu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ghi_chu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DapAn.DapAn1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DapAn.DapAn1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MonHoc.TenMonHoc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MonHoc.TenMonHoc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MucDoKho.TenMucDo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MucDoKho.TenMucDo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

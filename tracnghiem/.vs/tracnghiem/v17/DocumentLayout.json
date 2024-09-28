@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\duong\\source\\repos\\tracnghiem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7030B53-5F5E-4F3B-A5E0-71C9AC3A2C1C}|tracnghiem\\tracnghiem.csproj|c:\\users\\duong\\source\\repos\\tracnghiem\\tracnghiem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7030B53-5F5E-4F3B-A5E0-71C9AC3A2C1C}|tracnghiem\\tracnghiem.csproj|solutionrelative:tracnghiem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7030B53-5F5E-4F3B-A5E0-71C9AC3A2C1C}|tracnghiem\\tracnghiem.csproj|C:\\Users\\duong\\source\\repos\\tracnghiem\\tracnghiem\\models\\db.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{F7030B53-5F5E-4F3B-A5E0-71C9AC3A2C1C}|tracnghiem\\tracnghiem.csproj|solutionrelative:tracnghiem\\models\\db.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\tracnghiem\\tracnghiem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "tracnghiem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\tracnghiem\\tracnghiem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "tracnghiem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-27T10:05:12.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DB.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\duong\\source\\repos\\tracnghiem\\tracnghiem\\Models\\DB.edmx",
+              "RelativeDocumentMoniker": "tracnghiem\\Models\\DB.edmx",
+              "ToolTip": "C:\\Users\\duong\\source\\repos\\tracnghiem\\tracnghiem\\Models\\DB.edmx [Diagram1]",
+              "RelativeToolTip": "tracnghiem\\Models\\DB.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-09-27T04:02:08.418Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+﻿@model IEnumerable<tracnghiem.Models.CauHois>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cauhoi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dap_an_a)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dap_an_b)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dap_an_c)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dap_an_d)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ghi_chu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DapAn.DapAn1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MonHoc.TenMonHoc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MucDoKho.TenMucDo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cauhoi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dap_an_a)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dap_an_b)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dap_an_c)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dap_an_d)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ghi_chu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DapAn.DapAn1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MonHoc.TenMonHoc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MucDoKho.TenMucDo)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

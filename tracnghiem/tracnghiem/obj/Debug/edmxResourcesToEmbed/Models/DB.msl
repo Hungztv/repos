@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="tracnghiemModelStoreContainer" CdmEntityContainer="tracnghiemEntities">
+    <EntitySetMapping Name="CauHois">
+      <EntityTypeMapping TypeName="tracnghiemModel.CauHois">
+        <MappingFragment StoreEntitySet="CauHois">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Cauhoi" ColumnName="Cauhoi" />
+          <ScalarProperty Name="dap_an_a" ColumnName="dap_an_a" />
+          <ScalarProperty Name="dap_an_b" ColumnName="dap_an_b" />
+          <ScalarProperty Name="dap_an_c" ColumnName="dap_an_c" />
+          <ScalarProperty Name="dap_an_d" ColumnName="dap_an_d" />
+          <ScalarProperty Name="MaDapAn" ColumnName="MaDapAn" />
+          <ScalarProperty Name="ghi_chu" ColumnName="ghi_chu" />
+          <ScalarProperty Name="MaMonHoc" ColumnName="MaMonHoc" />
+          <ScalarProperty Name="MaMucDo" ColumnName="MaMucDo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DapAns">
+      <EntityTypeMapping TypeName="tracnghiemModel.DapAn">
+        <MappingFragment StoreEntitySet="DapAns">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="DapAn1" ColumnName="DapAn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeThis">
+      <EntityTypeMapping TypeName="tracnghiemModel.DeThi">
+        <MappingFragment StoreEntitySet="DeThis">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="NgayThi" ColumnName="NgayThi" />
+          <ScalarProperty Name="ThoiGianThi" ColumnName="ThoiGianThi" />
+          <ScalarProperty Name="SoLuongCauHoi" ColumnName="SoLuongCauHoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KetQuas">
+      <EntityTypeMapping TypeName="tracnghiemModel.KetQua">
+        <MappingFragment StoreEntitySet="KetQuas">
+          <ScalarProperty Name="MaThanhVien" ColumnName="MaThanhVien" />
+          <ScalarProperty Name="MaDeThi" ColumnName="MaDeThi" />
+          <ScalarProperty Name="MaCauHoi" ColumnName="MaCauHoi" />
+          <ScalarProperty Name="DapAn" ColumnName="DapAn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Khois">
+      <EntityTypeMapping TypeName="tracnghiemModel.Khois">
+        <MappingFragment StoreEntitySet="Khois">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="TenKhoi" ColumnName="TenKhoi" />
+          <ScalarProperty Name="Meta" ColumnName="Meta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MonHocs">
+      <EntityTypeMapping TypeName="tracnghiemModel.MonHoc">
+        <MappingFragment StoreEntitySet="MonHocs">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="TenMonHoc" ColumnName="TenMonHoc" />
+          <ScalarProperty Name="Meta" ColumnName="Meta" />
+          <ScalarProperty Name="MaKhoi" ColumnName="MaKhoi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MucDoKhos">
+      <EntityTypeMapping TypeName="tracnghiemModel.MucDoKho">
+        <MappingFragment StoreEntitySet="MucDoKhos">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="TenMucDo" ColumnName="TenMucDo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThanhViens">
+      <EntityTypeMapping TypeName="tracnghiemModel.ThanhVien">
+        <MappingFragment StoreEntitySet="ThanhViens">
+          <ScalarProperty Name="MaThanhVien" ColumnName="MaThanhVien" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="DienThoai" ColumnName="DienThoai" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="LaAdmin" ColumnName="LaAdmin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
